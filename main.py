@@ -19,7 +19,7 @@ client = OpenAI(api_key=api_key)
 
 
 # ------------------- YOUTUBE VIDEO URL -------------------
-VIDEO_URL = 'ha'
+VIDEO_URL = input("Enter YouTube video URL: ")
 
 
 # ------------------- FETCH VIDEO METADATA -------------------
